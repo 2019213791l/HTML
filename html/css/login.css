@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  position:absolute;
+  left:0;top:0;width: 100%;height: 100%;background: url(../img/bg.png) center 0 no-repeat; background-size: cover;background-attachment: fixed;
+
+}
+input {
+  border: none;
+  border-bottom: 1px solid #dfdfdf;
+  padding: 0px 0px 0px 15px;
+  font-size: 15px;
+  height: 30px;
+  color: #dfdfdf;
+}
+.outer_box {
+  position: relative;
+  height: calc(100vh);
+}
+
+
+
+/* 登录窗口 */
+.login_box {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px #80808079;
+}
+
+/* 标题 */
+.login_box .title {
+  width: 70%;
+  text-align: center;
+  margin: 35px 0px 35px -10px;
+  font-size: 20px;
+  color: #52565B;
+  display: inline-block;
+}
+
+/* p标签的公共样式 */
+.login_box p {
+  width: 100%;
+  height: 40px;
+  margin-top: -5px;
+  text-align: center;
+  justify-content: center;
+}
+
+/* iconfont */
+.login_box .box1{
+  display: inline-block;
+
+}
+.login_box .box1 img{
+  width: 10%;
+  float:left;
+  margin: 32px 0px 35px 50px;
+  size: 10px;
+  display: inline-block;
+}
+.login_box .title1 {
+  color: #8a8888;
+  font-size: 15px;
+  font-weight: 800;
+  margin-left: 50px;
+  text-align: left;
+}
+
+/* 登录按钮的样式 */
+.login_box .logIn_btn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 20px;
+  margin-left: 125px;
+  background-color:#766ee4;
+  color: #766ee4;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px #e6e5e5;
+  font-weight: bold;
+  display: flex;
+}
+.login_box .logIn_btn span {
+  display: block;
+  width: 33%;
+  /* height: 100%; */
+}
+.login_box .logIn_btn .left_line {
+  height: 20px;
+  margin-top: 20px;
+  border-left: 2px solid #611ce3;
+}
+.login_box .logIn_btn .right_line {
+  height: 20px;
+  border-right: 2px solid #611ce3;
+}
+
+/* 注册按钮 */
+.login_box .login {
+  width: 100px;
+  height: 40px;
+  margin: -40px 0px 0px 125px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.login_box .tip {
+  margin: -30px 0px 0px -80px;
+  font-size: small;
+
+}
+.login_box .tip .no2{
+  color: #611ce3;
+  font-weight: 900;
+}
